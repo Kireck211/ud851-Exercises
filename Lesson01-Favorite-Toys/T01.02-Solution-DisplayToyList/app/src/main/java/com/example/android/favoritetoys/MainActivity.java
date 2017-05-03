@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
          * Using findViewById, we get a reference to our TextView from xml. This allows us to
          * do things like set the text of the TextView.
          */
-        mToysListTextView = (TextView) findViewById(R.id.tv_toy_names);
+        private mToysListTextView = (TextView) findViewById(R.id.tv_toy_names);
 
         // COMPLETED (4) Use the static ToyBox.getToyNames method and store the names in a String array
         /*
